@@ -1,0 +1,45 @@
+/* pallete the same. 
+Do not forget about .portfolio-nav-button background color - secondary background-color #F5F4FA */
+
+/* :root {
+  --primary-black-color: #212121;
+  --secondary-black-color: #757575;
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --hero-and-footer-background-color: #2f303a;
+  --accent-color: #2196f3;
+} */
+
+/* portfolio-nav button */
+.portfolio-nav-button {
+  background-color: var(--secondary-background-color);
+  color: color: var(--primary-black-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.portfolio-nav-button:hover,
+.portfolio-nav-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-nav-button.current {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* portfolio-heading  */
+.portfolio-heading {
+  color: var(--primary-black-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+/* portfolio-paragraph */
+.portfolio-paragraph {
+  color: var(--secondary-black-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
