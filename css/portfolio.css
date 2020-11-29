@@ -14,7 +14,7 @@ Do not forget about .portfolio-nav-button background color - secondary backgroun
 .portfolio-nav-button {
   background-color: var(--secondary-background-color);
   color: color: var(--primary-black-color);
-  font-family: Roboto;
+  font-family: Roboto,sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
