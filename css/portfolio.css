@@ -44,7 +44,7 @@
   display: flex;
   justify-content: center;
 }
-.portfolio-nav:not(:last-child) {
+.portfolio-nav.item:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio-nav.list {
@@ -68,4 +68,7 @@
 }
 .portfolio.img-responsive {
   width: 370px;
+}
+.portfolio.section {
+  padding-bottom: 94px;
 }
