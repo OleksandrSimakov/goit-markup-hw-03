@@ -27,6 +27,7 @@
 
 /* portfolio-heading  */
 .portfolio-heading {
+  margin-bottom: 4px;
   color: var(--primary-black-color);
   font-size: 18px;
   line-height: 2;
