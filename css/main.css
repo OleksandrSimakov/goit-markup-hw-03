@@ -6,8 +6,10 @@
 .our-team.section {
   background-color: var(--secondary-background-color);
 }
-
+/* width and margin are temporarily set */
 .hero-title {
+  width: 696px;
+  margin: auto;
   margin-bottom: 30px;
   color: var(--primary-white-color);
   font-weight: 900;
@@ -18,7 +20,6 @@
 }
 /* hero-button */
 .hero-button {
-  display: inline-block;
   border: transparent;
   border-radius: 4px;
   padding: 10px 32px;
