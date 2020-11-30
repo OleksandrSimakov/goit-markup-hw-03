@@ -42,6 +42,7 @@
 }
 .portfolio-nav {
   display: flex;
+  justify-content: center;
 }
 .portfolio-nav:not(:last-child) {
   margin-right: 8px;
