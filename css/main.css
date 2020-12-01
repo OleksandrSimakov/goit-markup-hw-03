@@ -55,7 +55,8 @@
   display: flex;
 }
 .our-features-item {
-  width: calc((100%-90px) / 4);
+  /*   width: calc((100%-90px) / 4); */
+  width: 270px;
 }
 .our-features-item:not(:last-child) {
   margin-right: 30px;
@@ -98,6 +99,7 @@
 }
 .our-team-item:not(:nth-child(4n)) {
   margin-right: 30px;
+  width: 270px;
 }
 .our-team.img-responsive {
   width: 270px;

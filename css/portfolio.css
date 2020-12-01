@@ -27,7 +27,6 @@
 
 /* portfolio-heading  */
 .portfolio-heading {
-  margin-bottom: 4px;
   color: var(--primary-black-color);
   font-size: 18px;
   line-height: 2;
@@ -48,11 +47,14 @@
   margin-right: 8px;
 }
 .portfolio-nav.list {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio.list {
   display: flex;
   flex-wrap: wrap;
+}
+.portfolio-item {
+  width:370px;
 }
 .portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;

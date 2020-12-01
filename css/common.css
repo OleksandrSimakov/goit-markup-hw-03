@@ -50,6 +50,7 @@ p {
 }
 /* a */
 .link {
+  display: block;
   text-decoration: none;
   font-style: normal;
 }
