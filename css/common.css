@@ -58,7 +58,6 @@ p {
 .img-responsive {
   display: block;
   height: auto;
-  max-width: 100%;
 }
 /* visually hidden */
 .visually-hidden {
