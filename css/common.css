@@ -20,6 +20,7 @@ portfolio border color #EEEEEE*/
   --header-border-color: #ececec;
   --footer-white-color: rgba(255, 255, 255, 0.6);
   --portfolio-border-color: #eeeeee;
+  --item-list-gap: 30px;
 }
 
 /* body */
@@ -57,7 +58,6 @@ p {
 /* img */
 .img-responsive {
   display: block;
-  height: auto;
 }
 /* visually hidden */
 .visually-hidden {
